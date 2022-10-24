@@ -4,21 +4,21 @@
 
 After completing this lab, you will be able to:
 
-*   Create an XPS project by using the Base System Builder (BSB)
+*   Create a Vivado project by using the IP Integrator
 *   Create a simple hardware design by using Xilinx AXI4 interface based IP cores available in the Embedded Development Kit
 
 ## Steps
 
 ### Create a Vivado project
 
-1. Open Vivado by selecting **Start > All Programs > Xilinx Design Tools > Vivado 2018.2 > Vivado 2018.2**
+1. Open Vivado by selecting **Start > All Programs > Xilinx Design Tools > Vivado 2019.1 > Vivado 2019.1**
 2. Click **Create New Project** to start the wizard. You will see the Create a New Vivado Project dialog box. Click Next.
 1.	Click the Browse button of the Project Location field of the New Project and browse to **{labs}**, and click Select.
 1.	Enter **lab1** in the Project Name field.  Make sure that the Create Project Subdirectory box is checked.  Click Next.
 1.	In the Project Type form select **RTL Project**, and click Next
-1.	In the Add Sources form, select Verilog as the Target language and **Mixed** as the Simulator language, and click Next
+1.	In the Add Sources form, select **VHDL** as the Target language and **Mixed** as the Simulator language, and click Next
 1.	Click Next one more time to skip Add Constraints
-1.	In the Default Part window, select the Boards tab, and depending on the board you are using, (if you can't find the board you are looking for, refer to [README.md](https://github.com/wady100/Embedded-System-Design-Flow-on-MicroBlaze/blob/master/README.md) for setup) and click Next.
+1.	In the Default Part window, select the Boards tab, and select **Arty A7-100**.
 2. Check the Project Summary (should be similar to what you see below) and click Finish to create an empty Vivado project.
 
     <p align="center">

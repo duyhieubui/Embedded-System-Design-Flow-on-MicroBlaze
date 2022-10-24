@@ -30,26 +30,24 @@ To use the source files for each of the labs in this workshop, you have to clone
   ```
   In the instructions for the labs;
   <!--shit gets reall from here -->
-  **{sources}** refers to the location where you will get the base files for the labs [here](https://github.com/wady100/Embedded-System-Design-Flow-on-MicroBlaze/tree/master/sources)
+  **{sources}** refers to the location where you will get the base files for the labs [here](https://github.com/duyhieubui/Embedded-System-Design-Flow-on-MicroBlaze/tree/master/sources)
 
   **{labs}** refers to the location which you will use as your workspace for the labs in the workshop
-
-  **{labsolutions}** refers to [here](https://github.com/wady100/Embedded-System-Design-Flow-on-MicroBlaze/tree/master/labsolutions/2018_2_microblz)
 
   ---
   **NOTE**
 
-  Board support for the Basys3 and Nexys 4 DDR are not included in Vivado 2018.2 by default. The relevant files need to be extracted and saved to:
+  Board support for the Basys3, Nexys 4 DDR, Arty A7 35T and Arty A7 100T  are not included in Vivado 2019.1 by default. The relevant files need to be extracted and saved to:
 
    {Vivado installation}\data\boards\board_files\
 
-  These files can be downloaded from [/board_files](https://github.com/wady100/Embedded-System-Design-Flow-on-MicroBlaze/tree/master/board_files) where this material is hosted.
+  These files can be downloaded from [/board_files](https://github.com/duyhieubui/Embedded-System-Design-Flow-on-MicroBlaze/tree/master/board_files) where this material is hosted.
 
   ---
 
 ## Hardware Setup
 
-**Basys 3**:Connect a micro USB from the board to the PC. Make sure that a jumper is connected to JTAG (between JP1_2 and JP1_3) and another one of them should be connected across the USB pins (between JP1_2 and JP1_3)
+**Basys 3**: Connect a micro USB from the board to the PC. Make sure that a jumper is connected to JTAG (between JP1_2 and JP1_3) and another one of them should be connected across the USB pins (between JP1_2 and JP1_3)
 
 **Nexys 4 DDR**: Attach a micro USB cable in the slot provided. A jumper should be connected across USB (JP2_1 and JP2_2), another one should be across JTAG (JP1_2 and JP2_3) and finally one across USB for power(JP3_1 and JP_2)
 
