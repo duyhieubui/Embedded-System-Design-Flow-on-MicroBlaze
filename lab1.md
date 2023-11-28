@@ -66,7 +66,8 @@ After completing this lab, you will be able to:
 7. A new window pops up called the Run Block Automation window. In it, select /microblaze_0. Select _16KB_ in the **Local Memory**, Select _Debug & UART_ in **Debug Module**  and leave the settings as default. Click **OK**.
 
 8. A block diagram will be generated. Double click on the clk_wiz_1 IP (The Clocking Wizard IP block).
-9. Select the _Output Clocks_ tab in the **Clocking Wizard** window. At the bottom you will see _Reset Type_. Select **Active Low**.
+9. Select the _Board_ tab in the **Clocking Wizard** window. For CLK_IN1 port, select _sys clock_ for the **Board Interface**.
+10. Select the _Output Clocks_ tab in the **Clocking Wizard** window. At the bottom you will see _Reset Type_. Select **Active Low**.
 
     This is done because the board has an active low reset board connector.
 
